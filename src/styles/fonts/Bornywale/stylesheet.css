@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bornywale';
+    src: url('BornywaleRegular.eot');
+    src: url('BornywaleRegular.eot?#iefix') format('embedded-opentype'),
+        url('BornywaleRegular.woff2') format('woff2'),
+        url('BornywaleRegular.woff') format('woff'),
+        url('BornywaleRegular.ttf') format('truetype'),
+        url('BornywaleRegular.svg#BornywaleRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
