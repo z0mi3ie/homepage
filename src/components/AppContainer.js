@@ -10,7 +10,7 @@ class AppContainer extends React.Component {
         links: [
             {
                 id: 1,
-                title: "checkout some of my code on github",
+                title: "check out some of my code on github",
                 link: "https://github.com/z0mi3ie",
                 image: "",
                 priority: 0,
@@ -31,7 +31,7 @@ class AppContainer extends React.Component {
             },
             {
                 id: 4,
-                title: "take a peak at my resume",
+                title: "take a peek at my resume",
                 link: "https://github.com/z0mi3ie/resume",
                 image: "",
                 priority: 0,
