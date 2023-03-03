@@ -1,7 +1,6 @@
 
 $text-color: #fff;
 $text-color-dim: #cccccc;
-//$text-color-high: #3cff00;
 $text-color-high: #fff;
 
 $bubble-side-ways: 50px;
@@ -12,19 +11,6 @@ $text-color-lime: #A4A642;
 $text-color-teal: #98BD82;
 $text-color-yellow: #ECBB4F;
 $text-color-orange: #E28139;
-
-@font-face {
-    font-family: 'Bornywale';
-    src: url(fonts/Bornywale/BornywaleRegular.eot);
-    src: url(fonts/Bornywale/BornywaleRegular.eot?#iefix) format('embedded-opentype'),
-        url(fonts/Bornywale/BornywaleRegular.woff2) format('woff2'),
-        url(fonts/Bornywale/BornywaleRegular.woff) format('woff'),
-        url(fonts/Bornywale/BornywaleRegular.ttf) format('truetype'),
-        url(fonts/Bornywale/BornywaleRegular.svg#BornywaleRegular) format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'SegaArcadeFont';
@@ -49,6 +35,32 @@ $text-color-orange: #E28139;
     margin: 0 auto;
 }
 
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: .1rem;
+    //display: block;
+    //background-color: #000000;
+}
+
+.nav-list-item {
+    padding: 0rem 1rem;
+    margin: .4rem;
+    //background-color: #00FF00;
+    &:hover {
+        //background-color: #00FFFF;
+    }
+}
+
+.nav-link {
+    color: $text-color-pink;
+    display: block;
+}
+
 .inner {
     width: 100%;
     padding: 4rem 10px 4rem;
@@ -58,7 +70,6 @@ h1 {
     text-align: center;
     &.logotext {
         color: $text-color-lime;
-        //font-family: "Bornywale", Arial, Helvetica, sans-serif;
         font-family: "SegaArcadeFont", Arial, Helvetica, sans-serif;
         font-size: 64px;
     }
@@ -83,10 +94,8 @@ img {
 body {
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     line-height: 1.4;
-    color: #fff;
-    //background: rgb(86,56,249);
+    color: #000000;
     background: rgb(40,40,40);
-    //background: linear-gradient(0deg, rgba(86,56,249,1) 0%, rgba(25,102,237,1) 15%, rgba(0,212,255,1) 100%);
     height: 100vh;
 }
 
@@ -97,7 +106,6 @@ a {
         color: $text-color;
         transition: all 0.4s ease-in-out;
         &:hover {
-            //color: #e8c2f7;
             color: $text-color-pink;
         }
     }
@@ -113,28 +121,18 @@ a {
         transition: all 0.3s ease-in-out;
 
         &:hover {
-            //color:rgba(40,56,249,1);
             color:rgba(40,40,40,1);
             background-color: $text-color-teal;
         }
     }
+}
 
-    &.linklistitem-high {
-        color: $text-color-high;
-        text-decoration: none;
-        border: 2px solid $text-color-high;
-        margin: 7px;
-        padding: 10px;
-        display: block;
-
-        transition: all 0.3s ease-in-out;
-
-        &:hover {
-            color:rgba(86,56,249,1);
-            //background-color: rgb(209, 206, 206);
-            background-color: white;
-        }
-    }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .medialinks {
@@ -144,22 +142,26 @@ a {
 .center {
     display: block;
     width: 50%;
-  }
+}
 
 ul {
     list-style-type: none;
+    li {
+        text-align: center;
+    }
 }
 
-li {
+.about-me {
+    color: $text-color-dim;
+    //background-color: $text-color-yellow;
     text-align: center;
+    padding: .75rem;
 }
 
 
-
-// BUBBLES
+// Bubbles
 
 body {
-	//background: #00b4ff;
 	color: #333;
 	font: 100% Lato, Arial, Sans Serif;
 	height: 100vh;
