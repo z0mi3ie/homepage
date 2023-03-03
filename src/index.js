@@ -2,12 +2,9 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import "animate.css"
-
-// Component
-import AppContainer from "./components/AppContainer"
-
-// Stylesheet
 import "./styles/App.css"
+
+import AppContainer from "./components/AppContainer"
 
 ReactDOM.render(
     <React.StrictMode>

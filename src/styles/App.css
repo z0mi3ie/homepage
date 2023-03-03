@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "Bornywale";
-  src: url(fonts/Bornywale/BornywaleRegular.eot);
-  src: url(fonts/Bornywale/BornywaleRegular.eot?#iefix) format("embedded-opentype"), url(fonts/Bornywale/BornywaleRegular.woff2) format("woff2"), url(fonts/Bornywale/BornywaleRegular.woff) format("woff"), url(fonts/Bornywale/BornywaleRegular.ttf) format("truetype"), url(fonts/Bornywale/BornywaleRegular.svg#BornywaleRegular) format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: "SegaArcadeFont";
   src: url(fonts/SegaArcadeFont-Regular.ttf);
   font-weight: normal;
@@ -26,6 +18,25 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.1rem;
+}
+
+.nav-list-item {
+  padding: 0rem 1rem;
+  margin: 0.4rem;
+}
+.nav-link {
+  color: #BD8293;
+  display: block;
 }
 
 .inner {
@@ -60,7 +71,7 @@ img {
 body {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   line-height: 1.4;
-  color: #fff;
+  color: #000000;
   background: #282828;
   height: 100vh;
 }
@@ -88,18 +99,13 @@ a.linklistitem:hover {
   color: #282828;
   background-color: #98BD82;
 }
-a.linklistitem-high {
-  color: #fff;
-  text-decoration: none;
-  border: 2px solid #fff;
-  margin: 7px;
-  padding: 10px;
-  display: block;
-  transition: all 0.3s ease-in-out;
-}
-a.linklistitem-high:hover {
-  color: #5638f9;
-  background-color: white;
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .medialinks {
@@ -114,9 +120,14 @@ a.linklistitem-high:hover {
 ul {
   list-style-type: none;
 }
-
-li {
+ul li {
   text-align: center;
+}
+
+.about-me {
+  color: #cccccc;
+  text-align: center;
+  padding: 0.75rem;
 }
 
 body {
