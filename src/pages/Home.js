@@ -5,8 +5,15 @@ import LinksList from "../components/LinksList"
 const getLinks = () => {
     return [
         {
+            id: 0,
+            title: "the code for this website is located on github here",
+            link: "https://github.com/z0mi3ie/homepage",
+            image: "",
+            priority: 0,
+        },
+        {
             id: 1,
-            title: "check out some of my code on github",
+            title: "check out some of my other code on github",
             link: "https://github.com/z0mi3ie",
             image: "",
             priority: 0,
