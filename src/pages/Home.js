@@ -6,49 +6,49 @@ const getLinks = () => {
 
     let links = [
         {
-            title: "the code for this website",
-            link: "https://github.com/z0mi3ie/homepage",
+            title: "blog",
+            link: "https://blog.kylevickers.me",
             image: "",
             priority: 0,
         },
         {
-            title: "take a peek at my over-engineered LaTeX resume and pipeline",
+            title: "resume",
             link: "https://github.com/z0mi3ie/resume",
             image: "",
             priority: 0,
         },
         {
-            title: "play my typing game in Go, running WebAssembly",
+            title: "typerace",
             link: "http://typerace.kylevickers.me:8080",
             image: "",
             priority: 0,
         },
         {
-            title: "check out some of my other code on github",
+            title: "github",
             link: "https://github.com/z0mi3ie",
             image: "",
             priority: 0,
         },
         {
-            title: "browse my vimrc and configs",
+            title: "configs",
             link: "https://github.com/z0mi3ie/vimrc",
             image: "",
             priority: 0,
         },
         {
-            title: "see some of my hobbies on instagram",
+            title: "hobbies",
             link: "https://www.instagram.com/mr_trashcans/",
             image: "",
             priority: 0,
         },
         {
-            title: "connect with me on linkedin",
+            title: "linkedin",
             link: "https://www.linkedin.com/in/kylevickers89/",
             image: "",
             priority: 0,
         },
         {
-            title: "send me an email",
+            title: "email",
             link: "mailto:kylevickers@gmail.com",
             image: "",
             priority: 0,
