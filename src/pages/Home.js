@@ -7,7 +7,7 @@ const getLinks = () => {
     let links = [
         {
             title: "blog",
-            link: "https://blog.kylevickers.me",
+            link: "https://z0mi3ie.github.io/blog",
             image: "",
             priority: 0,
         },
